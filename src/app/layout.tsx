@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="shortcut icon" href="/img/Icons/FaviIcon.png" type="image/png" />
+        <link rel="shortcut icon" href="/icons/FaviIcon.png" type="image/png" />
       </head>
 
       <body className={PoppinsFont.className}>
