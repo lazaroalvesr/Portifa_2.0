@@ -6,7 +6,7 @@ import { BackgroundBeams } from "./background-beams"
 
 export const Sobre = () => {
     return (
-        <section className="mt-32 w-full lg:p-0 p-5 max-w-7xl m-auto relative -z-20" id="sobre">
+        <section className="mt-32 lg:p-0 p-5 max-w-7xl m-auto relative -z-20" id="sobre">
             <div className="flex lg:flex-row flex-col md:flex-row ">
                 <div className="flex flex-col">
                     <h1 className="lg:text-3xl text-2xl flex gap-4 font-bold">
@@ -18,8 +18,8 @@ export const Sobre = () => {
                             className="transform rotate-45"
                         />
                         Sobre Mim</h1>
-                    <div className="lg:w-[750px] w-96 bg-red-600 mt-12 h-32 ml-10 text-[#979797]">
-                        <p className="w-82">
+                    <div className="lg:w-[750px] w-fit mt-12 h-32 ml-10 text-[#979797]">
+                        <p>
                             Desenvolvedor Front-End ReactJS com 2 ano de
                             experiência. Sou especializado em HTML, CSS,
                             JavaScript, TypeScript, ReactJS, Next.js,
