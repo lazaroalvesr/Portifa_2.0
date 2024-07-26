@@ -18,7 +18,7 @@ export const Sobre = () => {
                             className="transform rotate-45"
                         />
                         Sobre Mim</h1>
-                    <div className="lg:w-[700px] w-60 bg-red-700  mt-12  ml-10 text-[#979797]">
+                    <div className="lg:w-[700px] w-[380px]    mt-12  ml-10 text-[#979797]">
                         <p className="pb-4">
                             Desenvolvedor Front-End ReactJS com 2 ano de
                             experiência. Sou especializado em HTML, CSS,
@@ -48,7 +48,7 @@ export const Sobre = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border border-blue-500 rounded-full m-auto p-2 lg:ml-32 w-72 mt-[20px] md:mt-32 lg:mt-20">
+                {/* <div className="border border-blue-500 rounded-full m-auto p-2 lg:ml-32 w-72 mt-[20px] md:mt-32 lg:mt-20">
                     <Image
                         src="/img/foto.jpg"
                         alt="Foto"
@@ -56,7 +56,7 @@ export const Sobre = () => {
                         height={90}
                         className="w-72 rounded-full"
                     />
-                </div>
+                </div> */}
             </div>
             <BackgroundBeams />
         </section>
