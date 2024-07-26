@@ -6,10 +6,10 @@ import { Sobre } from "@/_components/ui/Sobre";
 export default function Home() {
   return (
     <div>
-      {/* <Main /> */}
+      <Main />
       <Sobre />
-      {/* <Projetos /> */}
-      {/* <Contato /> */}
+      <Projetos />
+      <Contato />
     </div>
   );
 }
