@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import { BackgroundBeams } from "./background-beams"
 import Link from "next/link"
 
 export const Contato = () => {
@@ -41,7 +40,6 @@ export const Contato = () => {
                     </div>
                 </div>
             </div>
-            <BackgroundBeams />
         </section>
     )
 }

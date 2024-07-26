@@ -1,12 +1,11 @@
 'use client'
 
 import Image from "next/image"
-import { BackgroundBeams } from "./background-beams"
 import { CardProjetos } from "./CardProjetos"
 
 export const Projetos = () => {
     return (
-        <section id="projetos" className="lg:mt-60 mt-40 md:mt-72 w-full lg:p-0 p-5 max-w-7xl m-auto relative z-40">
+        <section id="projetos" className="lg:mt-60 mt-40 md:mt-72 w-full lg:p-0 p-5 max-w-7xl m-auto ">
             <div className="flex flex-col">
                 <div className="flex flex-col">
                     <h1 className="lg:text-3xl text-2xl flex gap-4 font-bold">
@@ -46,7 +45,6 @@ export const Projetos = () => {
                     />
                 </div>
             </div>
-            <BackgroundBeams />
         </section>
     )
 }

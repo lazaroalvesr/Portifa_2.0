@@ -2,11 +2,10 @@
 
 import Image from "next/image"
 import { ItensListaTec } from "./ItensListaTec"
-import { BackgroundBeams } from "./background-beams"
 
 export const Sobre = () => {
     return (
-        <section className="mt-32 lg:max-w-7xl  pl-4 m-auto relative -z-20" id="sobre">
+        <section className="mt-32 lg:max-w-7xl  pl-4 m-auto" id="sobre">
             <div className="flex lg:flex-row flex-col md:flex-row ">
                 <div className="flex flex-col">
                     <h1 className="lg:text-3xl text-2xl flex gap-4 font-bold">
@@ -58,7 +57,6 @@ export const Sobre = () => {
                     />
                 </div>
             </div>
-            <BackgroundBeams />
         </section>
     )
 }
