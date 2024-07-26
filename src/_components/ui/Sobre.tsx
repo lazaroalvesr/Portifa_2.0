@@ -18,8 +18,8 @@ export const Sobre = () => {
                             className="transform rotate-45"
                         />
                         Sobre Mim</h1>
-                    <div className="lg:w-[750px] w-[370px] mt-12 h-32 ml-10 text-[#979797]">
-                        <p>
+                    <div className="lg:w-[750px] w-96 bg-red-600 mt-12 h-32 ml-10 text-[#979797]">
+                        <p className="w-82">
                             Desenvolvedor Front-End ReactJS com 2 ano de
                             experiência. Sou especializado em HTML, CSS,
                             JavaScript, TypeScript, ReactJS, Next.js,
@@ -27,7 +27,7 @@ export const Sobre = () => {
                             possuo habilidades em Node.js, Fastify, SQL,
                             PostgreSQL e Prisma.
                         </p>
-                        <p className="pt-4">
+                        <p className="w-82 pt-4">
                             Com um forte conhecimento na concepção e implementação
                             de soluções, estou comprometido em entregar resultados
                             de alta qualidade e impactantes para cada projeto.
