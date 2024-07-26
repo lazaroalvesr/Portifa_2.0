@@ -18,7 +18,7 @@ export const Sobre = () => {
                             className="transform rotate-45"
                         />
                         Sobre Mim</h1>
-                    <div className="lg:w-[750px] w-[400px] mt-12 h-32 ml-10 text-[#979797]">
+                    <div className="lg:w-[750px] w-[370px] mt-12 h-32 ml-10 text-[#979797]">
                         <p>
                             Desenvolvedor Front-End ReactJS com 2 ano de
                             experiência. Sou especializado em HTML, CSS,
