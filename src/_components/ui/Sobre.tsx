@@ -18,7 +18,7 @@ export const Sobre = () => {
                             className="transform rotate-45"
                         />
                         Sobre Mim</h1>
-                    <div className="lg:w-[700px] max-w-full  w-96 mt-12  ml-10 text-[#979797]">
+                    <div className="lg:w-[700px] w-60 bg-red-700  mt-12  ml-10 text-[#979797]">
                         <p className="pb-4">
                             Desenvolvedor Front-End ReactJS com 2 ano de
                             experiência. Sou especializado em HTML, CSS,
@@ -35,16 +35,16 @@ export const Sobre = () => {
                             excelência, sempre buscando criar experiências
                             significativas e eficientes.
                         </p>
-                        <div className="pt-4">
-                            <p>Algumas tecnologias que tenho trabalhado <span className="font-bold">recentemente</span>:</p>
-                            <div className="grid lg:grid-cols-2 w-[450px]">
-                                <ItensListaTec text="Javascript (ES6++)" />
-                                <ItensListaTec text="React" />
-                                <ItensListaTec text="Next.js" />
-                                <ItensListaTec text="Typescript" />
-                                <ItensListaTec text="Node.js" />
-                                <ItensListaTec text="PostgreSQL " />
-                            </div>
+                    </div>
+                    <div className="pt-4 ml-10">
+                        <p>Algumas tecnologias que tenho trabalhado <span className="font-bold">recentemente</span>:</p>
+                        <div className="grid lg:grid-cols-2 w-[450px]">
+                            <ItensListaTec text="Javascript (ES6++)" />
+                            <ItensListaTec text="React" />
+                            <ItensListaTec text="Next.js" />
+                            <ItensListaTec text="Typescript" />
+                            <ItensListaTec text="Node.js" />
+                            <ItensListaTec text="PostgreSQL " />
                         </div>
                     </div>
                 </div>
