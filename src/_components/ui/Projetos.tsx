@@ -33,7 +33,7 @@ export const Projetos = () => {
                         src="/img/Api_Car.png"
                         titulo="API - Gestão de loja de carros"
                         sobre="API completa para gestão de loja de carros. Cria, edita, visualiza e exclui registros, busca por ID e categoriza veículos."
-                        tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
+                        tec={["Node.JS", "Typescript", "Prisma", "Fastify", "PostgreSQL"]}
                     />
                     <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/LandPage_GYM"
